@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tyoutyo : AnimalBase
+public class Tyoutyo_en : AnimalBase
 {
     protected override void Start()
     {
@@ -12,7 +12,7 @@ public class Tyoutyo : AnimalBase
         attackRate = 60;
         normalY = 0;
         speed = -0.04f;
-        isOpponent = false;
+        isOpponent = true;
         maxAttackNum = 1;
     }
 

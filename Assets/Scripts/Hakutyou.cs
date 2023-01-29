@@ -12,7 +12,7 @@ public class Hakutyou : AnimalBase
         attackRate = 60;
         normalY = 0;
         speed = -0.03f;
-        isOpponent = true;
+        isOpponent = false;
         maxAttackNum = 1;
     }
 

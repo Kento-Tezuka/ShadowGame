@@ -13,7 +13,7 @@ public class Katatsumuri : AnimalBase
         attackRate = 60;
         normalY = 0;
         speed = 0.02f;
-        isOpponent = true;
+        isOpponent = false;
         maxAttackNum = 1;
 
     }
